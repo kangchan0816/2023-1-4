@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>  
+    <meta charset="urf-8">
+    <meta name="author" content="work2">
+    <title>Kang-Chan Fan</title>
+    <style>        
+        #top111 {
+            display: none; 
+            position: fixed; 
+            bottom: 20px; 
+            right: 30px; 
+            z-index: 99; 
+            border: none; 
+            outline: none; 
+            background-color: red; 
+            color: white; 
+            cursor: pointer; 
+            padding: 15px; 
+            border-radius: 10px; 
+            font-size: 18px;
+            }
+
+        figure {
+            color: purple;
+            font-size: 200%;
+            font-style: italic;
+            box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            }
+        #font1 {
+            color: rgb(0, 0, 0);
+            font-size: 100%;
+            font-style: normal;
+            text-align: center;
+            width: 50px;
+            height: 100px;
+        }
+
+        h1 {text-align:center;}
+        #container {width:100%; height: 600px;   
+                    display: flex; flex-direction:row;
+                    flex-wrap:wrap;}
+        header {width:100%; height: 90px; 
+                background-color: blue;}
+        article {width:50%; height:500px;
+                background-color: orange;}
+        aside {width:50%; height: 500px;
+                background-color: yellow;}
+        footer {width:100%; height: 90px;
+                background-color: darkorchid;}
+        
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -99;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
+
+        .BG {
+            background-image:url(https://images.unsplash.com/photo-1548263594-a71ea65a8598?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+            background-repeat: no-repeat;
+            background-color: grey;
+            background-size: 100%;
+            }
+
+        .AM {
+            width: 50px;
+            height: 90px;
+            background-color: red;
+            position: relative;
+            animation-name: example;
+            animation-duration: 8s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes example {
+                0%   {background-color: red; left: 0px; top: 0px;}
+                25%  {background-color: green; left: 95%; top: 0px;}
+                50%  {background-color: blue; left: 95%; top: 410px;}
+                75%  {background-color: black; left: 0px; top: 410px;}
+                100% {background-color: red; left: 0px; top: 0px;}
+            }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <img src="material\background.jpg">
+    </div>
+    <figure><img src="material\POPCAT.gif" height="35">范綱展,Kang-Chan Fan<img src="material\POPCAT.gif" height="35"></figure>
+    <a href="https://www.nkust.edu.tw/" target="_blank" id="font1" >國立高雄科技大學<br></a>
+    <a href="https://ic.nkust.edu.tw/" target="_blank">智慧商務系<br></a>
+    <a href="https://www.instagram.com/kangchanf/">IG : kangchanf</a>
+    <hr>
+    <h2>學歷</h2>
+    <li>畢業於桃園市振聲高級中等學校</li>
+    <li>目前就讀國立高雄科技大學</li>
+    <hr>
+    <h2>求學歷程</h2>
+    <a>因為我參加志願就學方案，所以我有更多時間在數學、上發揮長處，以後我要在這方面一展長才，出於內心的歡喜在電學、數學…等專業科目都使我不斷地學習，我希望成為班上的僥僥者，讓我毅然選擇資訊，相信自己必可以克服相關課程。<br></a>
+    <hr>
+    <h2>興趣</h2>
+    <li>打桌球</li>
+    <li>打羽球</li>
+    <li>彈吉他</li>
+    <li>唱歌</li>
+    <hr>
+    <h2>喜歡的歌手、樂團</h2>
+    <table class="BG" border="5">
+        <thead>
+            <tr><th>####</th><th>李浩瑋</th><th>TRASH</th></tr>
+        </thead>
+        <tr><td>youtube</td>
+            <td><a href="https://www.youtube.com/channel/UCO5lkCTzjW72q2xfdoC6ZAg">李浩瑋 Howard Lee</a></td>
+            <td><a href="https://www.youtube.com/user/TrashBandTW">TRASH Band</a></td></tr>
+        <tr><td>instagram</td>
+            <td><a href="https://www.instagram.com/howard_leeee/">howard_leeee</a></td>
+            <td><a href="https://www.instagram.com/trashband/">trashband</a></td></tr>
+        <tr><td>照片</td>
+            <td><img src="https://static.appledaily.com.tw/prod/2022-07/50C3CBCD4E541CDEC2ED864F71/e6b6cfa996ddfcdb74d50ecfd86a39a7_large.jpg" width="128"></td>
+            <td><img src="https://i.scdn.co/image/ab6761610000e5ebf1f57eb0c05bfc935b95075a" width="200"></td></tr> 
+        </table>
+    <div id="container">
+        <header><h1>HTML + CSS</h1></header>
+        <article><div class="AM"><img src="https://rogeraabbccdd.github.io/AsiaGodTone-Hotpot-Game/assets/hotpot.gif"
+            width="50px" ></article>
+        <aside><div class="AM"><img src="https://rogeraabbccdd.github.io/AsiaGodTone-Hotpot-Game/assets/hotpot.gif"
+            width="50px" ></div></aside>
+        <footer><h1>END</h1></footer>
+    </div>
+    <a href="#top">回到頁首<br></a>
+</body>
